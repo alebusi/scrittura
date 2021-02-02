@@ -3,17 +3,22 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>textReader</title>
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption:700|Roboto+Mono:500|Roboto+Slab:700|Roboto:500" rel="stylesheet">	
+  <title>textReader</title>	
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800,900|PT+Sans+Caption:700" rel="stylesheet">
+
 </head>
 
 <style type="text/css">
+	
+  body {
+	background-color: black;
+  }
 	
   .wrapper {
        margin-top: 10vh;
        margin-left: 22vw;
        position: fixed;
-       border-right: 8px solid blue;
+       border-right: 8px solid #ff3300;
   }
 	
   #btLink {
@@ -30,16 +35,18 @@
 	#input_text {
 		width: 55vw;
 		height: 70vh;
-		font-family: 'PT Sans Caption', serif;
+		font-family: Raleway, 'PT Sans Caption', serif;
 		font-size: 60px;
-	/*	font-weight: bold;    */
+	        font-weight: 200;
 		letter-spacing: 0px;
+		color: white;
+		caret-color: #ff3300;
     /* text-decoration: underline solid red; */
 		}
 
 ::selection {
-  color: #ff3300;
-  background: white;
+  color: orange;
+  background: transparent;
 }	
 			
 </style>
