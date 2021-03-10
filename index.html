@@ -21,6 +21,16 @@
        border-right: 8px solid #ff3300;
   }
 	
+  #lettura {
+    position: fixed;
+    top: 65vh;
+    left: 88vw;
+    width: 6vw;
+    height: 6vw;
+    border: solid 3px white;
+    background-color: black;
+}
+
   #btLink {
     position: fixed;
     top: 80vh;
@@ -31,23 +41,13 @@
     border: solid 3px white;
     background-color: black;
 }
+		
+    .caret { border-left: 8px;
+    }
 	
-  #lettura {
-    position: fixed;
-    top: 60vh;
-    left: 88vw;
-    width: 6vw;
-    height: 6vw;
-    border: solid 3px white;
-    background-color: black;
-}
-	
-	.caret { border-left: 8px;
-	}
-	
-	textarea {outline: none;}
+    textarea {outline: none;}
     
-	#input_text {
+    #input_text {
 		width: 55vw;
 		height: 70vh;
 		font-family: Raleway, 'PT Sans Caption', serif;
@@ -59,7 +59,7 @@
 		caret-color: #ff3300;
 		border: 0;
     /* text-decoration: underline solid red; */
-		}
+    }
 
 ::selection {
   color: orange;
@@ -75,14 +75,13 @@
   <textarea name="input_text" form="usrform" id="input_text" ></textarea>
 
 </div>
-<a href="https://docs.google.com/document/d/16CbLxt-lWdQyXTM9IVz_KBC1-7GmdpohtnG2ZzStn4w/edit" target="_blank">
-     <div id="btLink"></div></a>
 <a href="https://docs.google.com/document/d/1IgL8OHxlNCJ6g85pNR4n4iQV3q_PqaxYdc2-l5YpcHA/edit" target="_blank">
      <div id="lettura"></div></a>
- <!--<button id="firestarter"  type="button">Process text</button>-->  
- 
-  <!--  <script  src="js/index.js"></script> -->
-
+<a href="https://docs.google.com/document/d/16CbLxt-lWdQyXTM9IVz_KBC1-7GmdpohtnG2ZzStn4w/edit" target="_blank">
+     <div id="btLink"></div></a>
+	
+<!--<button id="firestarter"  type="button">Process text</button>-->   
+<!--  <script  src="js/index.js"></script> -->
 </body>
 
 </html>
